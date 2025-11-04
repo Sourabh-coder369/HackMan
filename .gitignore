@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# Large unnecessary model files (keep only essential ones)
+models/dqn_*.pth
+models/advanced_dqn_*.pth
+
+# Documentation (keep only essential)
+ARCHITECTURE.md
+COMPLETE_SUMMARY.md
+FILE_STRUCTURE.txt
+MODEL_TEST_RESULTS.md
+TRAINING_*.md
+PROJECT_COMPLETE.md
+QUICKSTART.md
+START_HERE.md
+BEST_MODEL_SUMMARY.md
+FINAL_RESULTS.py
+FULL_TRAINING_PLAN.md
+RL_QUICKSTART.md
+RL_SOLUTION_OVERVIEW.md
+
+# Test scripts (keep only essential)
+check_overlap.py
+compare_all_models.py
+demo_ensemble.py
+dqn_agent.py
+dqn_agent_advanced.py
+ensemble_agent.py
+evaluate_ensemble.py
+evaluate_rl_meta_learner.py
+FINAL_RESULTS.py
+monitor_training.py
+quick_*.py
+run_training*.py
+standalone_demo.py
+test_*.py
+train_dqn_*.py
+train_optimized.py
+train_rl_meta_learner.py
+utils.py
+
+# Notebooks
+*.ipynb
